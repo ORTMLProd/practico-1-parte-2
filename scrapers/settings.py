@@ -63,12 +63,10 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "scrapers.pipelines.DuplicatesPipeline": 100,
-    "scrapers.pipelines.ItemLimit": 120,
-    "scrapers.pipelines.AzureImagesPipeline": 150,
+    # SU CÓDIGO AQUÍ
 }
 
-IMAGES_STORE = "/Users/federicozaiter/Repos/ort/ml-in-prod/scrapers/scrapers/images"
+IMAGES_STORE = ...  # TODO: SU CÓDIGO AQUÍ
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
